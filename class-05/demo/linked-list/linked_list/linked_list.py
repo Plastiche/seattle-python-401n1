@@ -34,7 +34,12 @@ class LinkedList:
         :return:
         """
 
+
+
         node = Node(value)
+
+        # self.head = Node(value, self.head)
+
 
         if self.head is not None:
             node.next_ = self.head

@@ -10,10 +10,8 @@ class Node:
         self.value = value
         self.next_ = next_
 
-
     def __repr__(self):
         return f"{self.value} : {self.next_}"
-
 
 
 class LinkedList:
@@ -27,32 +25,26 @@ class LinkedList:
         """
         self.head = None
 
-
     def insert(self, value):
         """
         This is my insert
         :return:
         """
 
-
-
         node = Node(value)
-
         # self.head = Node(value, self.head)
-
-
         if self.head is not None:
             node.next_ = self.head
         self.head = node
 
-
-
-
-
+#
 ll = LinkedList()
 print(ll)
+#
+print(ll.insert('Monday'))
+print(ll.head)
 
-ll.insert('Monday')
+
 
 
 

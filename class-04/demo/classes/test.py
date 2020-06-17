@@ -1,0 +1,2 @@
+from wizzard import PlayerCharacter
+

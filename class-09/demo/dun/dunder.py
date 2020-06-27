@@ -4,9 +4,9 @@ class Darkside:
     force_sensitive = True
 
     # Will use super later
-    # def __init__(self, name, saber_color):
-    #     self.name = name
-    #     self.saber_color = saber_color
+    def __init__(self, name, saber_color):
+        self.name = name
+        self.saber_color = saber_color
 
     def __repr__(self):
         return "In the Darkside class"
@@ -19,10 +19,10 @@ class Planets:
 
 class Sith(Darkside, Planets):
     def __init__(self, name, saber_color):
-        # super().__init__()
-        # self.force_choke = force_choke
-        self.name = name
-        self.saber_color = saber_color
+        super().__init__(name, saber_color)
+        self.force_choke = force_choke
+        # self.name = name
+        # self.saber_color = saber_color
 
     def __repr__(self):
         return f"{__class__.__name__}('{self.name}', '{self.saber_color}')"
@@ -47,7 +47,7 @@ class Accolite(Planets, Darkside):
 
 
 if __name__ == '__main__':
-    vader = Sith('Darth Vader', 'red')
+    vader = Sith('Darth Vader', 'red', True)
     # print(vader)
     revan = Accolite('Darth Revan', 'purple')
 

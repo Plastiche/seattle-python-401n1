@@ -37,7 +37,12 @@ class BasePlayer:
 
         for i in range(num_games):
             player = cls()
-            game = Game()
+            try:
+                game = Game()
+            except SystemExit:
+                pass
+                # player.old_print('Caught the Exception')
+                # commented out to clear up the terminal screen           
             game.play()
             mega_total += player.total_score
             player.reset()

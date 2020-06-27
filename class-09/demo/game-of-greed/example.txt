@@ -1,0 +1,3 @@
+(game-of-greed-7xy9WLwN-py3.8) rogerhuba@Rogers-MacBook-Pro game_of_greed % python player_bot.py
+1000 games (maybe) played with average score of 8139
+(game-of-greed-7xy9WLwN-py3.8) rogerhuba@Rogers-MacBook-Pro game_of_greed % 

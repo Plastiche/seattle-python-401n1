@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chess-board"
+name = "demo"
 version = "0.1.0"
 description = ""
 authors = ["Roger Huba <rogerhuba@gmail.com>"]
@@ -7,8 +7,6 @@ authors = ["Roger Huba <rogerhuba@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pandas = "^1.0.5"
-matplotlib = "^3.2.2"
-jupyterlab = "^2.1.5"
 
 [tool.poetry.dev-dependencies]
 

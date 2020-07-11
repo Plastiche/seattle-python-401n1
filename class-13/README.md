@@ -20,3 +20,6 @@ Don't be scared by the math. By understanding a few fundamental concepts we'll b
 - Split data into train and test samples
 - Draw conclusions from models
 
+#### One on Ones
+
+- Today I will put out a schedule on one on one's.  

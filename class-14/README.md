@@ -23,5 +23,5 @@ Today we'll focus on telling the story of our data analysis visually.
 ## Today's Outline
 
 - Student Whiteboard
-- Code Review DSA
+- BAD Statistics
 - Data Visualization

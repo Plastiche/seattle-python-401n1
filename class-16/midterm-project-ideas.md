@@ -1,6 +1,6 @@
 # Midterm Demo Ideas
 
-
+## Library and External Sources Idea
 
 - [AI Game Bot](https://www.freecodecamp.org/news/how-to-build-an-ai-game-bot-using-openai-gym-and-universe-f2eb9bfbb40a/)
 - [Click](https://click.palletsprojects.com/en/master/)
@@ -14,3 +14,10 @@
 - [3 of a Crime](https://boardgamegeek.com/boardgame/7641/three-crime)
 - [Text Adventures](https://www.raspberrypi.org/blog/making-text-adventure-wireframe-6/)
 - [Poker Rule Induction](https://www.kaggle.com/c/poker-rule-induction/overview)
+
+
+## Previous Projects
+
+- [Electric Slide](http://electric-slide.herokuapp.com/)
+- [My Pantry](https://infinite-river-24224.herokuapp.com)
+- [Opportune](http://opportune-app.herokuapp.com/)

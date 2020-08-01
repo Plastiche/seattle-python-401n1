@@ -29,7 +29,7 @@ def decrypt_blind(string):
     most_likely = ''
     max_pct = 0
 
-    for shift in range(0,26):
+    for shift in range(0, 26):
         decrypted = decrypt(string, shift)
 
         decrypted_words = decrypted.split()
@@ -53,7 +53,7 @@ def decrypt_blind(string):
 if __name__ == '__main__':
     txt_string = 'The quick brown fox jumped over the lazily sleeping dog'
     print(f'This is the text string: {txt_string}')
-    encrypted_string = encrypt(txt_string, 12)
+    encrypted_string = encrypt(txt_string, 21)
     print(f'This is the encrypted string: {encrypted_string}')
     most_like = decrypt_blind(encrypted_string)
     print(f'This is the decrypt blind string: {most_like}')

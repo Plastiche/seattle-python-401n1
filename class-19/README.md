@@ -24,4 +24,6 @@ As a developer, if you find yourself doing the same manual steps repeatedly then
 
 ## Today's Outline
 
-<!-- To Be Completed By Instructor -->
+- Lab Review
+- Whiteboard
+- Automation

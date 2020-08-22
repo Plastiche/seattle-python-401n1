@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block title %}
+      <title>Django Snacks</title>
+    {%  endblock title %}
+  </head>
+  <body>
+      <header>
+      <nav>
+        <ul>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'about' %}">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      {% block mainh1 %}
+        <h1>This is a generic message</h1>
+      {% endblock mainh1 %}
+
+    </main>
+  </body>
+</html>

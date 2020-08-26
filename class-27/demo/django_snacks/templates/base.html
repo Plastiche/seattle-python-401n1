@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      {% block title %}
+        <title>Snacks</title>
+      {% endblock title %}
+        <link rel="stylesheet" href="" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <h1>This is My Header</h1>
+        </header>
+        <main>
+          {% block content %}
+              <h2>This is the main</h2>
+              <p>This is my home page!</p>
+          {% endblock content %}
+
+        </main>
+        <footer>
+            <h2>This is the footer</h2>
+        </footer>
+    </body>
+</html>

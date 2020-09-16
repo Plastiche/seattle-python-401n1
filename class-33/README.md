@@ -14,7 +14,7 @@ We've recently moved to a production-grade database. But how about the server? T
 
 - Difference between Authorization and Authentication
 - Role of a production server
-- HOw JSON Web Tokens work
+- How JSON Web Tokens work
 
 #### Execute
 
@@ -24,4 +24,6 @@ We've recently moved to a production-grade database. But how about the server? T
 
 ## Today's Outline
 
-<!-- To Be Completed By Instructor -->
+- Housekeeping
+- White boarding
+- Lecture

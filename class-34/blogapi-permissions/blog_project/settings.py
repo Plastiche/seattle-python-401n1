@@ -11,14 +11,14 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 from pathlib import Path
-# import environ
+import environ
 
-# env = environ.Env(
-#     DEBUG=(bool, False)
-# )
+env = environ.Env(
+    DEBUG=(bool, False)
+)
 
 # reading .env file
-# environ.Env.read_env()
+environ.Env.read_env()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -28,15 +28,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = env.str('SECRET_KEY')
-SECRET_KEY = '%bj3%zk@(9_kwe4x%=oxx51_%=tb1p-(@&ny2(xbp(q5v-1zlg'
+SECRET_KEY = env.str('SECRET_KEY')
+# SECRET_KEY = '%bj3%zk@(9_kwe4x%=oxx51_%=tb1p-(@&ny2(xbp(q5v-1zlg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = env.bool('DEBUG')
-DEBUG = True
+DEBUG = env.bool('DEBUG')
+# DEBUG = True
 
-# ALLOWED_HOSTS = tuple(env.list('ALLOWED_HOSTS'))
-ALLOWED_HOSTS = ['localhost','0.0.0.0','127.0.0.1','192.168.0.0.1','54.149.78.185']
+ALLOWED_HOSTS = tuple(env.list('ALLOWED_HOSTS'))
+# ALLOWED_HOSTS = ['localhost','0.0.0.0','127.0.0.1','192.168.0.0.1','54.149.78.185']
 
 
 # Application definition
@@ -47,22 +47,22 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    # 'whitenoise.runserver_nostatic',
+    'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
 
     # 3rd-party apps
     'rest_framework',
-    # 'corsheaders',
+    'corsheaders',
 
     # Local
     'posts.apps.PostsConfig',
 ]
 
 MIDDLEWARE = [
-    # 'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    # 'whitenoise.middleware.WhiteNoiseMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -96,14 +96,14 @@ WSGI_APPLICATION = 'blog_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-        # 'ENGINE': 'django.db.backends.postgresql',
-        # 'NAME': env('DATABASE_NAME'),
-        # 'USER': env('DATABASE_USER'),
-        # 'PASSWORD': env('DATABASE_PASSWORD'),
-        # 'HOST': env('DATABASE_HOST'),
-        # 'PORT': env('DATABASE_PORT')
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': env('DATABASE_NAME'),
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASSWORD'),
+        'HOST': env('DATABASE_HOST'),
+        'PORT': env('DATABASE_PORT')
     }
 }
 
@@ -146,11 +146,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# STATIC_DIR = BASE_DIR / 'static'
-# STATIC_ROOT = BASE_DIR / 'staticfiles'
-# STATICFILES_DIRS = [
-#     STATIC_DIR,
-# ]
+STATIC_DIR = BASE_DIR / 'static'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = [
+    STATIC_DIR,
+]
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
@@ -163,6 +163,6 @@ REST_FRAMEWORK = {
     ]
 }
 
-# CORS_ORIGIN_WHITELIST = [
-#     "http://localhost:3000",
-# ]
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:3000",
+]

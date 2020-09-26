@@ -62,7 +62,7 @@
 - Class 37 : React 1
 - Class 38 : React 2
 - Class 39 : React 3
-- Class 40 : Career Coaching / React 4
+- Class 40 : Career Coaching
 
 #### Security, OSS & Beyond
 

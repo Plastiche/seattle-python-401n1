@@ -8,7 +8,7 @@ The app will display most recent XKCD comic and have links to previous 10 comics
 
 ## Feature Tasks and Requirements
 
-- Refer to [example site](https://xkcd-two.now.sh/){:target="_blank"}
+- Refer to [example site](site.png){:target="_blank"}
 - Web app should have 2 static routes
   - Home page at "/"
   - About page at "/about"

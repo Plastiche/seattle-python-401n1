@@ -25,7 +25,6 @@ Work with a team to test your skills and knowledge!
 
 ## Stretch
 
-- Complete `OWASP Top 10 - Security Misconfiguration`
 - Complete `OWASP Top 10 - 14: Security Misconfiguration`
 
 ## Submission

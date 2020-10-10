@@ -33,7 +33,7 @@ In this class we'll give an overview of the different kinds of security threats.
 - Broken Authentication
   - Leo
   - Roman
-- Broken Access COntrol
+- Broken Access Control
   - Lee
   - Chuck
 - Cross-Site Scripting XSS
@@ -44,3 +44,27 @@ In this class we'll give an overview of the different kinds of security threats.
   - Joe
 
 ### Avatao Practice
+
+[Avatao](https://www.avatao.com)
+
+- OWASP Top 10 Intro
+- Security Best Practices in Python
+- Secure Coding in Python
+
+## Finap Project Groups
+
+### __repr__
+
+- Lee
+- Will
+- Richard
+- Leo
+- Joe
+
+### __str__
+
+- Natalie
+- Adam
+- Thomas
+- Chuck
+- Roman

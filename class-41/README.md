@@ -4,8 +4,6 @@ Python is a major player in the web security space, as well as other types of in
 
 In this class we'll give an overview of the different kinds of security threats.
 
-We'll examine how we can (ethically) probe for security weaknesses and (ideally) fix them.
-
 ## Learning Objectives
 
 ### Students will be able to
@@ -44,3 +42,5 @@ We'll examine how we can (ethically) probe for security weaknesses and (ideally)
 - Security Misconfiguration
   - Natalie
   - Joe
+
+### Avatao Practice

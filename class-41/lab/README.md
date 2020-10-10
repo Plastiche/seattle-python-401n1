@@ -2,16 +2,16 @@
 
 ## Overview
 
-Work with a team to hack into Movie fan site and access restricted information.
+Work with a team to test your skills and knowledge!
 
 ## Feature Tasks and Requirements
 
-- Complete `OWASP Top 10 Intro` tutorial
+- Complete `OWASP Top 10 Intro` tutorial.
   - Feel free to exit tutorial and move on to next task once you feel comfortable with the platform.
-- Complete `Security Best Practices in Python` module (2 Hours 25 Min)
+- Complete `Security Best Practices in Python` module.
   - Once you have account hints will be offered.
   - You are free to use the hints as you like.
-- Complete `Secure Coding in Python` module (41 Min)
+- Complete `Secure Coding in Python` module.
   - Once you have account hints will be offered.
   - You are free to use the hints as you like.
 

@@ -17,7 +17,7 @@ Work with a team to test your skills and knowledge!
 
 ## Implementation Notes
 
-- Register at [Avatao](https://platform.avatao.com)
+- Register at [Avatao](https://platform.avatao.com){:target="_blank"}
 - (Optionally) Sign up for free premium trial
   - No credit card required
   - Makes hints available

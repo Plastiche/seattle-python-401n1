@@ -29,5 +29,5 @@ Work with a team to test your skills and knowledge!
 
 ## Submission
 
-- Submit screenshot of completed `Security Best Practices in Python` challenge
+- Submit screenshot of completed `Secure Coding in Python` challenge
 - Add comment to submission about 'aha' moments
